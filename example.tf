@@ -1,5 +1,5 @@
 provider "aws" {
-  profile    = "/home/ubuntu/.aws"
+  profile    = "/home/ubuntu/.aws/"
   region     = var.region
 }
 
