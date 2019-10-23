@@ -1,5 +1,5 @@
 provider "aws" {
-  profile    = "default"
+  profile    = "/home/ubuntu/.aws"
   region     = var.region
 }
 
