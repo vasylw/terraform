@@ -1,6 +1,7 @@
 provider "aws" {
-  profile    = "/var/lib/jenkins/workspace/.aws/credentials"
+  shared_credentials_file = "/var/lib/jenkins/workspace/.aws/credentials"
   region     = var.region
+  profile = "default"
 }
 
 resource "aws_instance" "example" {
