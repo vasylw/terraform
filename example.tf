@@ -1,5 +1,5 @@
 provider "aws" {
-  profile    = "/home/ubuntu/.aws/"
+  profile    = "/var/lib/jenkins/workspace/.aws/credentials"
   region     = var.region
 }
 
